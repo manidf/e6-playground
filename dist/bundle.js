@@ -66,14 +66,34 @@
 /******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */
-/***/ (function(module, exports) {
+/******/ ({
+
+/***/ 0:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__user__ = __webpack_require__(218);
 
 
 var root = document.querySelector('#app');
 
-root.innerHTML = '<p>Hello there</p>';
+var name = __WEBPACK_IMPORTED_MODULE_0__user__["a" /* default */].name;
+root.innerHTML = '<p>Hello ' + name + '</p>';
+
+/***/ }),
+
+/***/ 218:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var user = {
+  name: 'Mannuel',
+  secondName: 'Ferreira'
+};
+
+/* harmony default export */ __webpack_exports__["a"] = (user);
 
 /***/ })
-/******/ ]);
+
+/******/ });

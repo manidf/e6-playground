@@ -1,4 +1,6 @@
+import user from './user';
 
 const root  = document.querySelector('#app');
 
-root.innerHTML = `<p>Hello there</p>`;
+const name = user.name;
+root.innerHTML = `<p>Hello ${name}</p>`;
