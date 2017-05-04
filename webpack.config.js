@@ -1,5 +1,6 @@
 const webpack = require('webpack');
 const path = require('path');
+const os = require('os');
 
 const config = { 
     context: path.resolve(__dirname, 'src'),
@@ -21,7 +22,12 @@ const config = {
                 }
             }]
         }]
-    }
+    },
+    devServer: {
+        contentBase: './dist',
+        inline: true,
+        port: 8081
+    },
 }
 
 module.exports = config;
