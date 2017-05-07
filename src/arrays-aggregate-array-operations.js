@@ -11,4 +11,6 @@ const samenums = nums;
 nums[0] = 400;
 console.log(samenums[0]);
 
+console.groupEnd();
+
 

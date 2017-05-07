@@ -1,3 +1,5 @@
+console.log('Reduce');
+
 const arr = [1,2,3,4];
 
 const added = arr.reduce((accumulator, item) => {
@@ -6,3 +8,5 @@ const added = arr.reduce((accumulator, item) => {
 }, 0);
 
 console.log(added);
+
+console.groupEnd();
